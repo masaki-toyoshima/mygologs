@@ -9,5 +9,5 @@ func NewMyGoLogger() *MyGoLogger {
 }
 
 func (logger *MyGoLogger) Infof(format string, args ...interface{}) {
-	fmt.Sprintf(format, args)
+	fmt.Printf(format, args)
 }
